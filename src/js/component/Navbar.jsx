@@ -9,13 +9,13 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                         <a className="navbar-brand" href="#">Start Bootstrap</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"  aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse justify-content-end">
-                     <ul className="navbar-nav justify-content-end">
+                    <div className="collapse navbar-collapse justify-content-end" id="menu">
+                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <a className="nav-link active"  href="#">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">About</a>
